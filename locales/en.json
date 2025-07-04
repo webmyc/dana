@@ -73,5 +73,37 @@
       "group facilitation",
       "emotional healing"
     ]
-  }
+  },
+  "services": [
+    {
+      "title": "One‑on‑One Relationship & Healing Sessions",
+      "benefits": [
+        "Release emotional blockages and somatic stress through Psychodrama & Espere®️ tools",
+        "Gain clarity and confidence in your most meaningful relationships",
+        "Develop practical communication skills that nurture intimacy and respect"
+      ],
+      "cta": "Book a Session",
+      "ctaLink": "#contact"
+    },
+    {
+      "title": "Moon‑aligned Women’s Circles & Nature Rituals",
+      "benefits": [
+        "Tap into collective wisdom and embodied creativity each new moon",
+        "Create living art with plants, crystals, mandalas to anchor internal transformation",
+        "Feel seen, held, and celebrated in a sisterhood rooted in sacred space"
+      ],
+      "cta": "Join a Circle",
+      "ctaLink": "#contact"
+    },
+    {
+      "title": "Psychodrama & Espere®️ Group Facilitation",
+      "benefits": [
+        "Experience breakthrough insights through role-play and group dynamics",
+        "Learn powerful communication hygiene that shifts family & professional relationships",
+        "Build emotional resilience and community-support through shared practice"
+      ],
+      "cta": "Request Group Facilitation",
+      "ctaLink": "#contact"
+    }
+  ]
 }

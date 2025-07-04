@@ -73,5 +73,37 @@
       "facilitare de grup",
       "vindecare emoțională"
     ]
-  }
+  },
+  "services": [
+    {
+      "title": "Sesiuni individuale pentru relații și vindecare",
+      "benefits": [
+        "Eliberează blocajele emoționale și stresul somatic prin instrumente de Psihodramă & Espere®️",
+        "Câștigă claritate și încredere în cele mai importante relații",
+        "Dezvoltă abilități practice de comunicare care hrănesc intimitatea și respectul"
+      ],
+      "cta": "Programează o sesiune",
+      "ctaLink": "#contact"
+    },
+    {
+      "title": "Cercuri feminine aliniate la Lună & ritualuri în natură",
+      "benefits": [
+        "Accesează înțelepciunea colectivă și creativitatea întrupată la fiecare Lună Nouă",
+        "Creează artă vie cu plante, cristale, mandale pentru a ancora transformarea interioară",
+        "Simte-te văzută, susținută și celebrată într-o sororitate ancorată în spațiu sacru"
+      ],
+      "cta": "Înscrie-te la un cerc",
+      "ctaLink": "#contact"
+    },
+    {
+      "title": "Facilitare de grup Psihodramă & Espere®️",
+      "benefits": [
+        "Trăiește revelații profunde prin joc de rol și dinamică de grup",
+        "Învață igiena comunicării care transformă relațiile de familie și profesionale",
+        "Construiește reziliență emoțională și sprijin comunitar prin practică împărtășită"
+      ],
+      "cta": "Solicită facilitare de grup",
+      "ctaLink": "#contact"
+    }
+  ]
 }

@@ -1,164 +1,164 @@
 {
-    "nav": {
-      "home": "Home",
-      "about": "About",
-      "services": "Services",
-      "community": "Community",
-      "blog": "Blog",
-      "contact": "Contact",
-      "getStarted": "Get Started"
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "community": "Community",
+    "blog": "Blog",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "languages": {
+    "en": "English",
+    "ro": "Română",
+    "es": "Español",
+    "pt": "Português"
+  },
+  "seo": {
+    "home": {
+      "title": "Dana Dragomirescu – Authentic Connection & Emotional Exploration",
+      "description": "Experience transformative Psihodrama & Espere® guidance with Dana Dragomirescu. Book your discovery session today."
     },
-    "languages": {
-      "en": "English",
-      "ro": "Română",
-      "es": "Español",
-      "pt": "Português"
-    },
-    "seo": {
-      "home": {
-        "title": "Dana Dragomirescu – Authentic Connection & Emotional Healing",
-        "description": "Experience transformative Psihodrama and Espere® methods with Dana Dragomirescu. Book your discovery session today."
-      },
-      "about": {
-        "title": "About Dana Dragomirescu – Relationship Counselor & Group Facilitator",
-        "description": "Learn about Dana’s journey as a Psihodrama & Espere practitioner and co-founder of Suuna.org conscious communities."
-      },
-      "services": {
-        "title": "Services – Individual Counseling & Women’s Ritual Workshops",
-        "description": "Discover one-on-one counseling and New Moon women’s circles led by Dana to foster growth, confidence and connection."
-      },
-      "community": {
-        "title": "Conscious Community – Suuna.org with Dana Dragomirescu",
-        "description": "Join Suuna.org – the platform co-founded by Dana for conscious community building and collaboration."
-      },
-      "blog": {
-        "title": "Blog – Insights on Emotional Healing & Authentic Connection",
-        "description": "Read Dana’s articles on Psihodrama, Espere, ritual practices and conscious relationship building."
-      },
-      "contact": {
-        "title": "Contact Dana Dragomirescu",
-        "description": "Get in touch to book your session, join a workshop, or learn more about conscious community projects."
-      }
-    },
-    "hero": {
-      "headline": "Cultivating Authentic Connection",
-      "subheadline": "Transform your emotional life with Psihodrama & Espere® methods",
-      "ctaPrimary": "Book Your Discovery Session",
-      "ctaSecondary": "Join a New Moon Circle"
-    },
-    "benefits": [
-      {
-        "icon": "deep-green-check",
-        "title": "Emotional Liberation",
-        "description": "Release old patterns and limiting beliefs to create lasting inner freedom."
-      },
-      {
-        "icon": "deep-green-check",
-        "title": "Deep Connection",
-        "description": "Forge genuine bonds with yourself, others, and the natural world."
-      },
-      {
-        "icon": "deep-green-check",
-        "title": "Empowerment Rituals",
-        "description": "Harness lunar cycles and group energy for personal growth and confidence."
-      },
-      {
-        "icon": "deep-green-check",
-        "title": "Conscious Community",
-        "description": "Join like-minded circles that support your journey toward wholeness."
-      }
-    ],
     "about": {
-      "title": "About Dana",
-      "description": "Dana Dragomirescu is a certified relationship counselor and group facilitator, specializing in Psihodrama and the Espere® method. With over 10 years of experience, she guides individuals and women’s circles through transformative rituals. As co-founder of Suuna.org, Dana builds conscious communities grounded in empathy and authenticity.",
-      "learnMore": "Read Full Bio"
+      "title": "About Dana Dragomirescu – Relationship Counselor & Group Facilitator",
+      "description": "Learn about Dana’s journey as a Psihodrama & Espere facilitator and co-founder of Suuna.org conscious communities."
     },
-    "services": [
-      {
-        "id": "individual",
-        "title": "Individual Counseling",
-        "description": "Tailored one-on-one sessions to explore, heal, and integrate your emotional landscape.",
-        "benefits": [
-          "Personalized Psihodrama exercises",
-          "Safe, non-judgmental space",
-          "Actionable insights for daily life"
-        ],
-        "cta": "Schedule a Session"
-      },
-      {
-        "id": "workshops",
-        "title": "Women’s New Moon Workshops",
-        "description": "Monthly group rituals aligned with lunar phases, combining ceremony, sharing and embodiment practices.",
-        "benefits": [
-          "Sacred circle holding",
-          "Ritual tools & practices",
-          "Collective support & sisterhood"
-        ],
-        "cta": "Join Next Circle"
-      }
-    ],
+    "services": {
+      "title": "Guidance – Individual Sessions & Women’s Ritual Workshops",
+      "description": "Discover one-on-one guidance and New Moon women’s circles led by Dana to foster growth, confidence, and authentic connection."
+    },
     "community": {
-      "title": "Conscious Community @ Suuna.org",
-      "description": "Suuna.org is a growing network of conscious circles and facilitators co-created by Dana. Explore partnerships, online gatherings, and local meetups designed to foster collective growth.",
-      "linkText": "Visit Suuna.org",
-      "linkUrl": "https://suuna.org"
+      "title": "Conscious Community – Suuna.org with Dana Dragomirescu",
+      "description": "Join Suuna.org – the platform co-founded by Dana for conscious community building and collaboration."
     },
-    "testimonials": [
-      {
-        "author": "Ioana M.",
-        "quote": "Dana’s New Moon workshops awakened a deep sense of sisterhood and inner strength I never knew I had."
-      },
-      {
-        "author": "Elena P.",
-        "quote": "Through one-on-one Psihodrama sessions, I broke free from old stories and stepped into authentic living."
-      },
-      {
-        "author": "Maria S.",
-        "quote": "The combination of Espere® techniques and nature rituals has been life-changing—I feel more aligned every day."
-      }
-    ],
     "blog": {
-      "title": "From the Journal",
-      "posts": [
-        {
-          "id": "ritual-healing-intro",
-          "title": "Rituals for Emotional Healing",
-          "excerpt": "Discover how simple daily rituals can anchor you in presence and support your well-being."
-        },
-        {
-          "id": "psihodrama-basics",
-          "title": "An Introduction to Psihodrama",
-          "excerpt": "Learn the fundamentals of Psihodrama and how it catalyzes deep personal insight."
-        }
-      ],
-      "readMore": "View All Articles"
+      "title": "Blog – Insights on Emotional Exploration & Authentic Connection",
+      "description": "Read Dana’s articles on Psihodrama, Espere, ritual practices and conscious relationship building."
     },
     "contact": {
-      "headline": "Ready to Begin Your Journey?",
-      "subheadline": "Whether for individual healing or joining a women’s circle, Dana is here to guide you.",
-      "cta": "Get in Touch",
-      "form": {
-        "nameLabel": "Your Name",
-        "emailLabel": "Email Address",
-        "messageLabel": "Your Message",
-        "submit": "Send Message",
-        "success": "Thank you! Your message has been sent."
-      }
-    },
-    "footer": {
-      "newsletter": {
-        "title": "Stay Connected",
-        "description": "Subscribe for insights on emotional healing, event updates, and community news.",
-        "placeholder": "Enter your email",
-        "subscribe": "Subscribe"
-      },
-      "social": {
-        "facebook": "Facebook",
-        "instagram": "Instagram",
-        "linkedin": "LinkedIn",
-        "youtube": "YouTube"
-      },
-      "copyright": "© {{year}} Dana Dragomirescu. All rights reserved."
+      "title": "Contact Dana Dragomirescu",
+      "description": "Get in touch to book your guidance session, join a workshop, or learn more about conscious community projects."
     }
+  },
+  "hero": {
+    "headline": "Cultivating Authentic Connection",
+    "subheadline": "Transform your emotional life with Psihodrama & Espere® guidance",
+    "ctaPrimary": "Book Your Discovery Session",
+    "ctaSecondary": "Join a New Moon Circle"
+  },
+  "benefits": [
+    {
+      "icon": "deep-green-check",
+      "title": "Emotional Liberation",
+      "description": "Release old patterns and limiting beliefs to create lasting inner freedom."
+    },
+    {
+      "icon": "deep-green-check",
+      "title": "Deep Connection",
+      "description": "Forge genuine bonds with yourself, others, and the natural world."
+    },
+    {
+      "icon": "deep-green-check",
+      "title": "Empowerment Rituals",
+      "description": "Harness lunar cycles and group energy for personal growth and confidence."
+    },
+    {
+      "icon": "deep-green-check",
+      "title": "Conscious Community",
+      "description": "Join like-minded circles that support your journey toward wholeness."
+    }
+  ],
+  "about": {
+    "title": "About Dana",
+    "description": "Dana Dragomirescu is a certified relationship counselor and group facilitator, specializing in Psihodrama and the Espere® method. With over 10 years of experience, she guides individuals and women’s circles through transformative rituals. As co-founder of Suuna.org, Dana builds conscious communities grounded in empathy and authenticity.",
+    "learnMore": "Read Full Bio"
+  },
+  "services": [
+    {
+      "id": "individual",
+      "title": "Individual Guidance",
+      "description": "Tailored one-on-one sessions to explore and integrate your emotional landscape with Psihodrama exercises.",
+      "benefits": [
+        "Personalized Psihodrama exercises",
+        "Safe, non-judgmental space",
+        "Actionable insights for daily life"
+      ],
+      "cta": "Schedule a Session"
+    },
+    {
+      "id": "workshops",
+      "title": "Women’s New Moon Workshops",
+      "description": "Monthly group rituals aligned with lunar phases, combining ceremony, sharing and embodiment practices.",
+      "benefits": [
+        "Sacred circle holding",
+        "Ritual tools & practices",
+        "Collective support & sisterhood"
+      ],
+      "cta": "Join Next Circle"
+    }
+  ],
+  "community": {
+    "title": "Conscious Community @ Suuna.org",
+    "description": "Suuna.org is a growing network of conscious circles and facilitators co-created by Dana. Explore partnerships, online gatherings, and local meetups designed to foster collective growth.",
+    "linkText": "Visit Suuna.org",
+    "linkUrl": "https://suuna.org"
+  },
+  "testimonials": [
+    {
+      "author": "Ioana M.",
+      "quote": "Dana’s New Moon workshops awakened a deep sense of sisterhood and inner strength I never knew I had."
+    },
+    {
+      "author": "Elena P.",
+      "quote": "Through one-on-one Psihodrama sessions, I broke free from old stories and stepped into authentic living."
+    },
+    {
+      "author": "Maria S.",
+      "quote": "The combination of Espere® techniques and nature rituals has been life-changing—I feel more aligned every day."
+    }
+  ],
+  "blog": {
+    "title": "From the Journal",
+    "posts": [
+      {
+        "id": "ritual-exploration-intro",
+        "title": "Rituals for Emotional Exploration",
+        "excerpt": "Discover how simple daily rituals can anchor you in presence and support your well-being."
+      },
+      {
+        "id": "psihodrama-basics",
+        "title": "An Introduction to Psihodrama",
+        "excerpt": "Learn the fundamentals of Psihodrama and how it catalyzes deep personal insight."
+      }
+    ],
+    "readMore": "View All Articles"
+  },
+  "contact": {
+    "headline": "Ready to Begin Your Journey?",
+    "subheadline": "Whether for individual guidance or joining a women’s circle, Dana is here to support your growth.",
+    "cta": "Get in Touch",
+    "form": {
+      "nameLabel": "Your Name",
+      "emailLabel": "Email Address",
+      "messageLabel": "Your Message",
+      "submit": "Send Message",
+      "success": "Thank you! Your message has been sent."
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Stay Connected",
+      "description": "Subscribe for insights on emotional exploration, event updates, and community news.",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube"
+    },
+    "copyright": "© {{year}} Dana Dragomirescu. All rights reserved."
   }
+}
   

@@ -1,22 +1,14 @@
 import React from 'react';
-import Image from 'next/image';
-import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
-  const { t } = useTranslation();
   return (
-    <footer className="relative bg-deep-green text-light-neutral py-8 mt-16">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center prose dark:prose-invert px-4">
-        <div>{t('footer.copy') || t('footer.copyright')}</div>
-        {/* Newsletter form, social icons, etc. */}
-      </div>
-      <div className="absolute bottom-0 left-0 w-32 h-32 opacity-20 -rotate-45 pointer-events-none">
-        <Image
-          src="/assets/holistic-healer-45.png"
-          alt=""
-          layout="fill"
-          objectFit="contain"
-        />
+    <footer className="bg-deep-forest-teal text-soft-cream py-8 px-4 flex flex-col items-center justify-center">
+      <h2 className="font-heading text-xl uppercase tracking-wider mb-2">Dana Dragomirescu</h2>
+      <p className="font-body text-base mb-4 text-center max-w-xl">
+        &copy; {new Date().getFullYear()} Dana Dragomirescu. All rights reserved. Authentic Connection.
+      </p>
+      <div className="flex gap-4 mt-2">
+        {/* Add social or icon links here if needed */}
       </div>
     </footer>
   );

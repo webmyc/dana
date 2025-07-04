@@ -1,4 +1,3 @@
-// pt.json
 {
   "nav": {
     "home": "Início",
@@ -17,33 +16,33 @@
   },
   "seo": {
     "home": {
-      "title": "Dana Dragomirescu – Conexão Autêntica & Cura Emocional",
-      "description": "Vivencie a transformação com Psihodrama e Espere® com Dana Dragomirescu. Agende sua sessão de descoberta hoje."
+      "title": "Dana Dragomirescu – Conexão Autêntica & Exploração Emocional",
+      "description": "Vivencie a orientação transformadora de Psihodrama e Espere® com Dana Dragomirescu. Agende hoje sua sessão de descoberta."
     },
     "about": {
       "title": "Sobre Dana Dragomirescu – Conselheira de Relacionamentos & Facilitadora de Grupos",
-      "description": "Conheça a jornada de Dana como praticante de Psihodrama e Espere® e cofundadora do Suuna.org."
+      "description": "Conheça a jornada de Dana como facilitadora de Psihodrama e Espere® e cofundadora das comunidades conscientes Suuna.org."
     },
     "services": {
-      "title": "Serviços – Aconselhamento Individual & Oficinas Ritualísticas para Mulheres",
-      "description": "Descubra sessões individuais e círculos mensais conduzidos por Dana para crescimento, confiança e conexão."
+      "title": "Orientação – Sessões Individuais & Oficinas Ritualísticas para Mulheres",
+      "description": "Descubra orientação individual e círculos de Lua Nova guiados por Dana para promover crescimento, confiança e conexão autêntica."
     },
     "community": {
       "title": "Comunidade Consciente – Suuna.org com Dana Dragomirescu",
-      "description": "Junte-se ao Suuna.org – a plataforma co-criada por Dana para comunidades conscientes e colaborações."
+      "description": "Junte-se ao Suuna.org – a plataforma cocriada por Dana para construção de comunidades conscientes e colaborações."
     },
     "blog": {
-      "title": "Blog – Insights sobre Cura Emocional & Conexão Autêntica",
+      "title": "Blog – Insights sobre Exploração Emocional & Conexão Autêntica",
       "description": "Leia os artigos de Dana sobre Psihodrama, Espere®, práticas ritualísticas e construção de relacionamentos conscientes."
     },
     "contact": {
       "title": "Contato com Dana Dragomirescu",
-      "description": "Entre em contato para agendar sua sessão, participar de uma oficina ou saber mais sobre projetos comunitários."
+      "description": "Entre em contato para agendar sua sessão de orientação, participar de um workshop ou saber mais sobre projetos de comunidade consciente."
     }
   },
   "hero": {
     "headline": "Cultivando a Conexão Autêntica",
-    "subheadline": "Transforme sua vida emocional com Psihodrama & Espere®",
+    "subheadline": "Transforme sua vida emocional com orientação Psihodrama & Espere®",
     "ctaPrimary": "Agende Sua Sessão de Descoberta",
     "ctaSecondary": "Participe do Círculo da Lua Nova"
   },
@@ -66,19 +65,19 @@
     {
       "icon": "deep-green-check",
       "title": "Comunidade Consciente",
-      "description": "Junte-se a círculos afins que apoiam sua jornada em direção à plenitude."
+      "description": "Junte-se a círculos afins que apoiam sua jornada rumo à plenitude."
     }
   ],
   "about": {
     "title": "Sobre Dana",
-    "description": "Dana Dragomirescu é conselheira de relacionamentos certificada e facilitadora de grupos, especializada em Psihodrama e no método Espere®. Com mais de 10 anos de experiência, ela conduz sessões individuais e círculos ritualísticos femininos. Como cofundadora do Suuna.org, Dana constrói comunidades conscientes baseadas em empatia e autenticidade.",
+    "description": "Dana Dragomirescu é conselheira de relacionamentos certificada e facilitadora de grupos, especializada em Psihodrama e no método Espere®. Com mais de 10 anos de experiência, ela guia sessões individuais e círculos ritualísticos femininos. Como cofundadora do Suuna.org, Dana constrói comunidades conscientes fundamentadas na empatia e autenticidade.",
     "learnMore": "Ver Biografia Completa"
   },
   "services": [
     {
       "id": "individual",
-      "title": "Aconselhamento Individual",
-      "description": "Sessões personalizadas individuais para explorar, curar e integrar seu mundo emocional.",
+      "title": "Orientação Individual",
+      "description": "Sessões personalizadas individuais para explorar e integrar seu universo emocional por meio de exercícios de Psihodrama.",
       "benefits": [
         "Exercícios de Psihodrama personalizados",
         "Espaço seguro e sem julgamentos",
@@ -89,7 +88,7 @@
     {
       "id": "workshops",
       "title": "Oficinas de Lua Nova para Mulheres",
-      "description": "Rituais de grupo mensais alinhados com as fases lunares, combinando cerimônia, compartilhamento e práticas corporais.",
+      "description": "Rituais de grupo mensais alinhados com as fases da lua, combinando cerimônia, compartilhamento e práticas corporais.",
       "benefits": [
         "Sustentação de círculo sagrado",
         "Ferramentas e práticas ritualísticas",
@@ -100,7 +99,7 @@
   ],
   "community": {
     "title": "Comunidade Consciente @ Suuna.org",
-    "description": "Suuna.org é uma rede em expansão de círculos conscientes e facilitadores co-criada por Dana. Explore parcerias, encontros online e eventos locais para crescimento coletivo.",
+    "description": "Suuna.org é uma rede em crescimento de círculos conscientes e facilitadores cocriada por Dana. Explore parcerias, encontros online e eventos locais projetados para fomentar crescimento coletivo.",
     "linkText": "Visite Suuna.org",
     "linkUrl": "https://suuna.org"
   },
@@ -115,16 +114,16 @@
     },
     {
       "author": "Maria S.",
-      "quote": "A combinação das técnicas Espere® com rituais na natureza mudou minha vida—sinto-me mais alinhada a cada dia."
+      "quote": "A combinação das técnicas Espere® com rituais na natureza mudou minha vida—I sinto-me mais alinhada a cada dia."
     }
   ],
   "blog": {
     "title": "Do Diário",
     "posts": [
       {
-        "id": "ritual-healing-intro",
-        "title": "Rituais para Cura Emocional",
-        "excerpt": "Descubra como rituais diários simples podem te ancorar no presente e apoiar seu bem-estar."
+        "id": "ritual-exploration-intro",
+        "title": "Rituais para Exploração Emocional",
+        "excerpt": "Descubra como rituais diários simples podem ancorar você no presente e apoiar seu bem-estar."
       },
       {
         "id": "psihodrama-basics",
@@ -135,9 +134,9 @@
     "readMore": "Ver Todos os Artigos"
   },
   "contact": {
-    "headline": "Pronto para Começar sua Jornada?",
-    "subheadline": "Quer seja para cura individual ou um círculo de mulheres, Dana está aqui para te guiar.",
-    "cta": "Entrar em Contato",
+    "headline": "Pronto para Começar Sua Jornada?",
+    "subheadline": "Seja para orientação individual ou participar de um círculo de mulheres, Dana está aqui para apoiar seu crescimento.",
+    "cta": "Entre em Contato",
     "form": {
       "nameLabel": "Seu Nome",
       "emailLabel": "Endereço de Email",
@@ -149,7 +148,7 @@
   "footer": {
     "newsletter": {
       "title": "Fique Conectado(a)",
-      "description": "Inscreva-se para receber insights sobre cura emocional, atualizações de eventos e notícias da comunidade.",
+      "description": "Inscreva-se para insights sobre exploração emocional, atualizações de eventos e novidades da comunidade.",
       "placeholder": "Digite seu email",
       "subscribe": "Inscrever-se"
     },

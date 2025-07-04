@@ -7,25 +7,39 @@ export default function CommunitySpotlight() {
   const { t } = useTranslation();
   return (
     <motion.section
-      className="container mx-auto flex flex-col md:flex-row items-center gap-8 py-16 px-4"
+      className="relative w-full min-h-[340px] flex items-center justify-center overflow-hidden py-0 md:py-0"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
     >
-      <div className="flex-shrink-0 w-full md:w-1/2">
+      {/* Full-width background image */}
+      <div className="absolute inset-0 z-0">
         <Image
           src="/assets/dana-workshop.jpeg"
           alt={t('community.title')}
-          width={480}
-          height={320}
-          className="rounded-lg object-cover"
+          layout="fill"
+          objectFit="cover"
+          className="w-full h-full object-cover"
+          priority
         />
       </div>
-      <div className="prose dark:prose-invert max-w-xl">
-        <h2 className="font-heading text-3xl mb-4">{t('community.title')}</h2>
-        <p className="mb-6">{t('community.description')}</p>
-        <a href="https://suuna.org" target="_blank" rel="noopener" className="text-neon-lemon font-semibold underline">{t('community.cta') || t('community.linkText')}</a>
+      {/* Earth-brass overlay panel */}
+      <div className="relative z-10 w-full max-w-3xl mx-auto bg-earth-brass/80 rounded-2xl shadow-card p-8 md:p-12 flex flex-col items-center text-center backdrop-blur-sm">
+        <h2 className="font-heading text-3xl md:text-4xl text-soft-cream mb-4 uppercase tracking-wider">
+          {t('community.title')}
+        </h2>
+        <p className="font-body text-lg text-soft-cream mb-6">
+          {t('community.description')}
+        </p>
+        <a
+          href="https://suuna.org"
+          target="_blank"
+          rel="noopener"
+          className="uppercase py-3 px-8 bg-vibrant-ochre text-deep-forest-teal font-bold rounded-full shadow hover:-translate-y-1 hover:shadow-xl transition focus:outline-none focus:ring-2 focus:ring-vibrant-ochre text-base"
+        >
+          {t('community.cta') || t('community.linkText')}
+        </a>
       </div>
     </motion.section>
   );

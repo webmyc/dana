@@ -41,4 +41,4 @@
 
 ---
 
-For any issues, open a GitHub issue or contact the maintainer. 
+For any issues, open a GitHub issue or contact the maintainer.

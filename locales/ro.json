@@ -1,163 +1,65 @@
 {
-  "nav": {
-    "home": "Acasă",
-    "about": "Despre",
-    "services": "Servicii",
-    "community": "Comunitate",
-    "blog": "Blog",
-    "contact": "Contact",
-    "getStarted": "Începe"
-  },
-  "languages": {
-    "en": "English",
-    "ro": "Română",
-    "es": "Español",
-    "pt": "Português"
-  },
-  "seo": {
-    "home": {
-      "title": "Dana Dragomirescu – Conexiune Autentică & Explorare Emoțională",
-      "description": "Experimentează ghidaj transformator prin Psihodramă și Espere® cu Dana Dragomirescu. Programează-ți sesiunea de descoperire azi."
+  "website_copy": {
+    "hero_section": {
+      "headline": "Vindecă-ți inima. Întărește-ți relațiile. Înflorește în natură.",
+      "subheadline": "Sunt Dana — consilier relațional, ghid Psihodramă & Espere®️, creatoare de ritualuri în natură — aici să te ajut să transformi relațiile și să-ți revendici vocea autentică.",
+      "primary_cta_microcopy": "Începe-ți călătoria →"
     },
-    "about": {
-      "title": "Despre Dana Dragomirescu – Consilier Relațional & Facilitator de Grup",
-      "description": "Află despre parcursul Danei ca facilitator în Psihodramă și Espere și co-fondatoare a comunităților conștiente Suuna.org."
+    "about_dana_section": {
+      "introduction": "Sunt Dana Dragomirescu — consilier relațional empatic, practician certificat de Psihodramă și facilitator Espere®️, mamă a doi copii și creatoare de ritualuri și cercuri feminine aliniate naturii. Înrădăcinată profund în practicile pământului, te susțin să vindeci rănile de comunicare, să construiești conexiuni sufletești și să trăiești pe deplin în armonie cu natura ta interioară.",
+      "link_to_full_about": "Cunoaște-mă & Povestea mea →"
     },
-    "services": {
-      "title": "Ghidare – Sesiuni Individuale & Ateliere Rituale pentru Femei",
-      "description": "Descoperă sesiuni unu-la-unu și cercuri de Lună Nouă conduse de Dana pentru creștere, încredere și conexiune autentică."
+    "services_overview": {
+      "individual_counseling": {
+        "headline": "Sesiuni individuale pentru relații și vindecare",
+        "benefits": [
+          "Eliberează blocajele emoționale și stresul somatic prin instrumente de Psihodramă & Espere®️",
+          "Câștigă claritate și încredere în cele mai importante relații",
+          "Dezvoltă abilități practice de comunicare care hrănesc intimitatea și respectul"
+        ]
+      },
+      "women_circles": {
+        "headline": "Cercuri feminine aliniate la Lună & ritualuri în natură",
+        "benefits": [
+          "Accesează înțelepciunea colectivă și creativitatea întrupată la fiecare Lună Nouă",
+          "Creează artă vie cu plante, cristale, mandale pentru a ancora transformarea interioară",
+          "Simte-te văzută, susținută și celebrată într-o sororitate ancorată în spațiu sacru"
+        ]
+      },
+      "group_facilitation": {
+        "headline": "Facilitare de grup Psihodramă & Espere®️",
+        "benefits": [
+          "Trăiește revelații profunde prin joc de rol și dinamică de grup",
+          "Învață igiena comunicării care transformă relațiile de familie și profesionale",
+          "Construiește reziliență emoțională și sprijin comunitar prin practică împărtășită"
+        ]
+      }
     },
-    "community": {
-      "title": "Comunitate Conștientă – Suuna.org cu Dana Dragomirescu",
-      "description": "Alătură-te Suuna.org – platforma co-creată de Dana pentru construire de comunități conștiente și colaborare."
-    },
-    "blog": {
-      "title": "Blog – Perspective despre Explorarea Emoțională & Conexiune Autentică",
-      "description": "Citește articolele Danei despre Psihodramă, Espere, practici ritualice și relații conștiente."
-    },
-    "contact": {
-      "title": "Contact Dana Dragomirescu",
-      "description": "Ia legătura pentru a programa sesiunea de ghidaj, a te alătura unui atelier sau a afla mai multe despre proiectele comunității conștiente."
-    }
-  },
-  "hero": {
-    "headline": "Cultivând Conexiunea Autentică",
-    "subheadline": "Transformă-ți viața emoțională cu ghidaj Psihodramă & Espere®",
-    "ctaPrimary": "Programează-ți sesiunea de descoperire",
-    "ctaSecondary": "Alătură-te Cercului de Lună Nouă"
-  },
-  "benefits": [
-    {
-      "icon": "deep-green-check",
-      "title": "Eliberare Emoțională",
-      "description": "Eliberează tiparele vechi și convingerile limitative pentru libertate interioară durabilă."
-    },
-    {
-      "icon": "deep-green-check",
-      "title": "Conexiune Aprofundată",
-      "description": "Construiește legături profunde cu tine însuți, cu ceilalți și cu natura."
-    },
-    {
-      "icon": "deep-green-check",
-      "title": "Ritualuri de Împuternicire",
-      "description": "Folosește energia ciclurilor lunare și a grupului pentru creștere personală și încredere."
-    },
-    {
-      "icon": "deep-green-check",
-      "title": "Comunitate Conștientă",
-      "description": "Alătură-te cercurilor afine care susțin drumul tău către întregire."
-    }
-  ],
-  "about": {
-    "title": "Despre Dana",
-    "description": "Dana Dragomirescu este consilier relațional certificat și facilitator de grup, specializată în Psihodramă și metoda Espere®. Cu peste 10 ani de experiență, ea ghidează indivizi și cercuri de femei prin ritualuri transformatoare. Ca și co-fondatoare Suuna.org, Dana construiește comunități conștiente bazate pe empatie și autenticitate.",
-    "learnMore": "Află Biografia Completă"
-  },
-  "services": [
-    {
-      "id": "individual",
-      "title": "Ghidare Individuală",
-      "description": "Sesiuni personalizate unu-la-unu pentru a explora și integra peisajul tău emoțional prin exerciții de Psihodramă.",
-      "benefits": [
-        "Exerciții Psihodramă personalizate",
-        "Spațiu sigur, non-judicativ",
-        "Perspective practice pentru viața de zi cu zi"
-      ],
-      "cta": "Programează o sesiune"
-    },
-    {
-      "id": "workshops",
-      "title": "Ateliere de Lună Nouă pentru Femei",
-      "description": "Ritualuri de grup lunare aliniate cu fazele lunii, combinând ceremonie, împărtășire și practici de întrupare.",
-      "benefits": [
-        "Ținerea cercului sacru",
-        "Instrumente și practici ritualice",
-        "Sprijin colectiv și fraternitate"
-      ],
-      "cta": "Participă la următorul cerc"
-    }
-  ],
-  "community": {
-    "title": "Comunitate Conștientă @ Suuna.org",
-    "description": "Suuna.org este o rețea în creștere de cercuri conștiente și facilitatori co-create de Dana. Explorează parteneriate, întâlniri online și evenimente locale menite să stimuleze creșterea colectivă.",
-    "linkText": "Vizitează Suuna.org",
-    "linkUrl": "https://suuna.org"
-  },
-  "testimonials": [
-    {
-      "author": "Ioana M.",
-      "quote": "Atelierele Danei de Lună Nouă mi-au trezit un profund sentiment de sororitate și forță interioară pe care nu credeam că îl am."
-    },
-    {
-      "author": "Elena P.",
-      "quote": "Prin sesiunile unu-la-unu de Psihodramă, m-am eliberat de vechile povești și am început să trăiesc autentic."
-    },
-    {
-      "author": "Maria S.",
-      "quote": "Combinarea tehnicilor Espere® cu ritualuri în natură mi-a schimbat viața—mă simt mai aliniată în fiecare zi."
-    }
-  ],
-  "blog": {
-    "title": "Din Jurnal",
-    "posts": [
+    "testimonials_social_proof": [
       {
-        "id": "ritual-exploration-intro",
-        "title": "Ritualuri pentru Explorare Emoțională",
-        "excerpt": "Descoperă cum ritualurile simple zilnice te pot ancora în prezență și susține starea de bine."
+        "text": "„Căldura și îndrumarea clară a Danei m-au ajutat să-mi exprim adevărul fără violență — iar acum mă simt mai aproape de toți cei din viața mea.”",
+        "attribution": "Bianca M."
       },
       {
-        "id": "psihodrama-basics",
-        "title": "Introducere în Psihodramă",
-        "excerpt": "Află fundamentele Psihodramei și cum catalizează aceasta insight-ul personal profund."
+        "text": "„Metodele de Psihodramă și Espere®️ ale Danei au schimbat felul în care relaționez — parcă relațiile mele au prins viață sănătoasă.”",
+        "attribution": "Melinda M."
+      },
+      {
+        "text": "„În cercul de femei am creat artă cu flori și cristale — și am găsit un spațiu în care mă simt pe deplin văzută.”",
+        "attribution": "Irina Mădălina"
+      },
+      {
+        "text": "„Lecturile akashice ale Danei mi-au oferit claritate la nivel de suflet și un profund sentiment de suveranitate.”",
+        "attribution": "Petra"
+      },
+      {
+        "text": "„Facilitarea de grup s-a simțit profund sigură, susținătoare și transformațională — folosesc zilnic instrumentele învățate.”",
+        "attribution": "Carmen"
       }
     ],
-    "readMore": "Vezi Toate Articolele"
-  },
-  "contact": {
-    "headline": "Pregătită să Îți Începi Călătoria?",
-    "subheadline": "Fie pentru ghidare individuală, fie pentru un cerc de femei, Dana este aici să sprijine creșterea ta.",
-    "cta": "Ia Legătura",
-    "form": {
-      "nameLabel": "Numele tău",
-      "emailLabel": "Adresa de email",
-      "messageLabel": "Mesajul tău",
-      "submit": "Trimite Mesajul",
-      "success": "Mulțumim! Mesajul tău a fost trimis."
-    }
-  },
-  "footer": {
-    "newsletter": {
-      "title": "Rămâi Conectat(ă)",
-      "description": "Abonează-te pentru perspective despre explorarea emoțională, noutăți despre evenimente și știri comunitare.",
-      "placeholder": "Introdu email-ul",
-      "subscribe": "Abonează-te"
-    },
-    "social": {
-      "facebook": "Facebook",
-      "instagram": "Instagram",
-      "linkedin": "LinkedIn",
-      "youtube": "YouTube"
-    },
-    "copyright": "© {{year}} Dana Dragomirescu. Toate drepturile rezervate."
-  }
-}
+    "call_to_action_general": [
+      "Ești curios cum poate o sesiune să-ți adâncească relațiile? Hai să vorbim.",
+      "Alătură-te următorului Cerc de Lună Nouă — rezervă-ți locul acum.",
+      "Programează o conversație pentru a explora facilitarea de grup pentru echipa sau comunitatea ta."
+    ],
+    "meta_description": "Dana Dragomirescu oferă consiliere relațională empatică, facilitare Psihodramă & Espere®️, cercuri feminine și r_

@@ -6,16 +6,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Brand palette
-        'deep-forest-teal': '#145D52', // primary bg, headers
-        'sage': '#4E7C6C',            // secondary bg, accents
-        'earth-brass': '#A67C52',     // icons, overlays, secondary CTAs
-        'earth-brass-dark': '#8B6843',// hover, dark variant
-        'soft-cream': '#F5F3EE',      // light backgrounds, cards
-        'vibrant-ochre': '#EFFF40',   // primary CTAs, highlights
-        'dusty-rose': '#C799A3',      // links, subtle highlights
-        'charcoal': '#333',           // text on light
-        'offwhite': '#FAFAF7',        // alt light bg
+        'deep-teal': '#0F4F40',      // primary text & dark sections
+        'warm-brass': '#A67C52',     // secondary buttons, icons
+        'soft-cream': '#FAF8F4',     // hero text, light backgrounds
+        'pastel-sage': '#E8F3EF',    // alt section bg
+        'dusty-rose': '#ECD8D9',     // decor shape fills
+        'vibrant-ochre': '#EFFF40',  // primary CTA & hovers
+        'charcoal': '#333',          // text on light
+        'offwhite': '#FAFAF7',       // alt light bg
+        'white': '#fff',
       },
       fontFamily: {
         heading: ['Oswald', 'sans-serif'],
@@ -25,6 +24,12 @@ module.exports = {
         oswald: ['Oswald', 'sans-serif'],
         'open-sans': ['Open Sans', 'sans-serif'],
       },
+      fontSize: {
+        h1: ['3rem', { lineHeight: '1.1', letterSpacing: '0.05em' }],
+        h2: ['2.25rem', { lineHeight: '1.15' }],
+        h3: ['1.5rem', { lineHeight: '1.2' }],
+        base: ['1rem', { lineHeight: '1.6' }],
+      },
       spacing: {
         '1': '8px',
         '2': '16px',
@@ -33,12 +38,14 @@ module.exports = {
         '8': '64px',
       },
       boxShadow: {
-        card: '0 4px 24px rgba(20,93,82,0.08)',
-        lift: '0 8px 32px rgba(20,93,82,0.16)',
+        card: '0 4px 24px rgba(15,79,64,0.08)',
+        lift: '0 8px 32px rgba(239,255,64,0.3)', // ochre glow
+        glow: '0 0 0 4px #EFFF40',
       },
       borderRadius: {
         'xl': '1.25rem',
         '2xl': '2rem',
+        '3xl': '2.5rem',
         'full': '9999px',
       },
       letterSpacing: {

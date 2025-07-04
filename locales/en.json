@@ -1,76 +1,77 @@
-"website_copy": {
-  "hero_section": {
-    "headline": "Heal Your Heart. Strengthen Your Connections. Bloom in Nature.",
-    "subheadline": "I’m Dana—relationship counselor, Psychodrama & Espere®️ guide, nature-ritual creator—here to help you transform relationships and reclaim your true voice.",
-    "primary_cta_microcopy": "Start Your Journey →"
-  },
-  "about_dana_section": {
-    "introduction": "I’m Dana Dragomirescu—a compassionate relationship counselor, certified Psychodrama practitioner and Espere®️ facilitator, mother of two, and creator of nature‑aligned rituals and women’s circles. Deeply rooted in earth‑wise practices, I support people like you to heal communication wounds, build soulful connections, and live fully in harmony with your inner nature.",
-    "link_to_full_about": "Meet Me & My Story →"
-  },
-  "services_overview": {
-    "individual_counseling": {
-      "headline": "One‑on‑One Relationship & Healing Sessions",
-      "benefits": [
-        "Release emotional blockages and somatic stress through Psychodrama & Espere®️ tools",
-        "Gain clarity and confidence in your most meaningful relationships",
-        "Develop practical communication skills that nurture intimacy and respect"
-      ]
+{
+  "website_copy": {
+    "hero_section": {
+      "headline": "Heal Your Heart. Strengthen Your Connections. Bloom in Nature.",
+      "subheadline": "I’m Dana—relationship counselor, Psychodrama & Espere®️ guide, nature-ritual creator—here to help you transform relationships and reclaim your true voice.",
+      "primary_cta_microcopy": "Start Your Journey →"
     },
-    "women_circles": {
-      "headline": "Moon‑aligned Women’s Circles & Nature Rituals",
-      "benefits": [
-        "Tap into collective wisdom and embodied creativity each new moon",
-        "Create living art with plants, crystals, mandalas to anchor internal transformation",
-        "Feel seen, held, and celebrated in a sisterhood rooted in sacred space"
-      ]
+    "about_dana_section": {
+      "introduction": "I’m Dana Dragomirescu—a compassionate relationship counselor, certified Psychodrama practitioner and Espere®️ facilitator, mother of two, and creator of nature‑aligned rituals and women’s circles. Deeply rooted in earth‑wise practices, I support people like you to heal communication wounds, build soulful connections, and live fully in harmony with your inner nature.",
+      "link_to_full_about": "Meet Me & My Story →"
     },
-    "group_facilitation": {
-      "headline": "Psychodrama & Espere®️ Group Facilitation",
-      "benefits": [
-        "Experience breakthrough insights through role-play and group dynamics",
-        "Learn powerful communication hygiene that shifts family & professional relationships",
-        "Build emotional resilience and community-support through shared practice"
-      ]
-    }
-  },
-  "testimonials_social_proof": [
-    {
-      "text": "“Dana’s warmth and clear guidance helped me speak my truth nonviolently—and I feel closer to everyone in my life.”",
-      "attribution": "Bianca M."
+    "services_overview": {
+      "individual_counseling": {
+        "headline": "One‑on‑One Relationship & Healing Sessions",
+        "benefits": [
+          "Release emotional blockages and somatic stress through Psychodrama & Espere®️ tools",
+          "Gain clarity and confidence in your most meaningful relationships",
+          "Develop practical communication skills that nurture intimacy and respect"
+        ]
+      },
+      "women_circles": {
+        "headline": "Moon‑aligned Women’s Circles & Nature Rituals",
+        "benefits": [
+          "Tap into collective wisdom and embodied creativity each new moon",
+          "Create living art with plants, crystals, mandalas to anchor internal transformation",
+          "Feel seen, held, and celebrated in a sisterhood rooted in sacred space"
+        ]
+      },
+      "group_facilitation": {
+        "headline": "Psychodrama & Espere®️ Group Facilitation",
+        "benefits": [
+          "Experience breakthrough insights through role-play and group dynamics",
+          "Learn powerful communication hygiene that shifts family & professional relationships",
+          "Build emotional resilience and community-support through shared practice"
+        ]
+      }
     },
-    {
-      "text": "“Her Psychodrama and Espere®️ methods changed how I relate—it’s like my relationships now have their own healthy life.”",
-      "attribution": "Melinda M."
-    },
-    {
-      "text": "“In the women’s circle I created art with flowers and crystals—and found a space where I feel fully seen.”",
-      "attribution": "Irina Mădălina"
-    },
-    {
-      "text": "“Dana’s Akashic readings gave me soul‑level clarity and a profound sense of sovereignty.”",
-      "attribution": "Petra"
-    },
-    {
-      "text": "“The group facilitation felt deeply safe, supportive, and transformational—tools I use every day.”",
-      "attribution": "Carmen"
-    }
-  ],
-  "call_to_action_general": [
-    "Curious how one session can deepen your relationships? Let’s talk.",
-    "Join our next New Moon Circle—secure your spot now.",
-    "Book a conversation to explore group facilitation for your team or community."
-  ],
-  "meta_description": "Dana Dragomirescu offers compassionate relationship counseling, Psychodrama & Espere®️ facilitation, women’s circles, and nature‑rituals in Romania. Heal, connect, grow.",
-  "seo_keywords": [
-    "relationship counseling",
-    "Psychodrama practitioner",
-    "Espere®️ facilitator",
-    "women’s circles",
-    "ecotherapy",
-    "nature rituals",
-    "group facilitation",
-    "emotional healing"
-  ]
-}
+    "testimonials_social_proof": [
+      {
+        "text": "“Dana’s warmth and clear guidance helped me speak my truth nonviolently—and I feel closer to everyone in my life.”",
+        "attribution": "Bianca M."
+      },
+      {
+        "text": "“Her Psychodrama and Espere®️ methods changed how I relate—it’s like my relationships now have their own healthy life.”",
+        "attribution": "Melinda M."
+      },
+      {
+        "text": "“In the women’s circle I created art with flowers and crystals—and found a space where I feel fully seen.”",
+        "attribution": "Irina Mădălina"
+      },
+      {
+        "text": "“Dana’s Akashic readings gave me soul‑level clarity and a profound sense of sovereignty.”",
+        "attribution": "Petra"
+      },
+      {
+        "text": "“The group facilitation felt deeply safe, supportive, and transformational—tools I use every day.”",
+        "attribution": "Carmen"
+      }
+    ],
+    "call_to_action_general": [
+      "Curious how one session can deepen your relationships? Let’s talk.",
+      "Join our next New Moon Circle—secure your spot now.",
+      "Book a conversation to explore group facilitation for your team or community."
+    ],
+    "meta_description": "Dana Dragomirescu offers compassionate relationship counseling, Psychodrama & Espere®️ facilitation, women’s circles, and nature‑rituals in Romania. Heal, connect, grow.",
+    "seo_keywords": [
+      "relationship counseling",
+      "Psychodrama practitioner",
+      "Espere®️ facilitator",
+      "women’s circles",
+      "ecotherapy",
+      "nature rituals",
+      "group facilitation",
+      "emotional healing"
+    ]
+  }
 }

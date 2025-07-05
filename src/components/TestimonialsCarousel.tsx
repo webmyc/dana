@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 
 const arrowBtn = (dir: 'left' | 'right', onClick: () => void, disabled: boolean) => (
   <button
@@ -20,10 +20,11 @@ const arrowBtn = (dir: 'left' | 'right', onClick: () => void, disabled: boolean)
 
 export default function TestimonialsCarousel() {
   const { t } = useTranslation();
-  const testimonials = t('testimonials', { returnObjects: true }) as any[];
+  const testimonials = t('testimonials', { returnObjects: true });
   const [index, setIndex] = useState(0);
-  const next = () => setIndex((i) => (i + 1) % testimonials.length);
-  const prev = () => setIndex((i) => (i - 1 + testimonials.length) % testimonials.length);
+  const safeTestimonials = Array.isArray(testimonials) ? testimonials : [];
+  const next = () => setIndex((i) => (i + 1) % safeTestimonials.length);
+  const prev = () => setIndex((i) => (i - 1 + safeTestimonials.length) % safeTestimonials.length);
   return (
     <motion.section
       className="relative bg-gradient-to-b from-dusty-rose/80 via-white/90 to-white rounded-3xl py-12 md:py-24 px-4 flex flex-col items-center"
@@ -37,29 +38,31 @@ export default function TestimonialsCarousel() {
       </h2>
       <div className="relative w-full max-w-2xl mx-auto flex items-center justify-center">
         <AnimatePresence initial={false}>
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, scale: 0.9, y: 20 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.9, y: -20 }}
-            transition={{ duration: 0.5 }}
-            className="bg-deep-teal rounded-2xl p-10 shadow-card text-center min-h-[220px] flex flex-col items-center justify-center border-4 border-vibrant-ochre"
-          >
-            <blockquote className="text-2xl md:text-3xl italic mb-4 text-soft-cream font-body">
-              “{testimonials[index].quote}”
-            </blockquote>
-            <div className="font-bold text-vibrant-ochre text-lg mb-1 font-heading">{testimonials[index].author}</div>
-            <div className="text-base text-warm-brass font-subheading">{testimonials[index].role}</div>
-          </motion.div>
+          {safeTestimonials.length > 0 && (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, scale: 0.9, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9, y: -20 }}
+              transition={{ duration: 0.5 }}
+              className="bg-deep-teal rounded-2xl p-10 shadow-card text-center min-h-[220px] flex flex-col items-center justify-center border-4 border-vibrant-ochre"
+            >
+              <blockquote className="text-2xl md:text-3xl italic mb-4 text-soft-cream font-body">
+                “{safeTestimonials[index]?.quote}”
+              </blockquote>
+              <div className="font-bold text-vibrant-ochre text-lg mb-1 font-heading">{safeTestimonials[index]?.author}</div>
+              <div className="text-base text-warm-brass font-subheading">{safeTestimonials[index]?.role}</div>
+            </motion.div>
+          )}
         </AnimatePresence>
         <div className="flex justify-center mt-6">
-          {arrowBtn('left', prev, testimonials.length <= 1)}
-          {arrowBtn('right', next, testimonials.length <= 1)}
+          {arrowBtn('left', prev, safeTestimonials.length <= 1)}
+          {arrowBtn('right', next, safeTestimonials.length <= 1)}
         </div>
       </div>
       {/* Nav dots */}
       <div className="flex justify-center mt-6 gap-2">
-        {testimonials.map((_, i) => (
+        {safeTestimonials.map((_, i) => (
           <span
             key={i}
             className={`w-3 h-3 rounded-full border-2 border-vibrant-ochre ${i === index ? 'bg-vibrant-ochre' : 'bg-white'} transition`}

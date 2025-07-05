@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'next-i18next';
 
 interface Post {
   title: string;
@@ -11,6 +12,7 @@ interface Post {
 }
 
 export default function BlogPreview({ posts }: { posts: Post[] }) {
+  const { t } = useTranslation();
   return (
     <motion.section
       className="container mx-auto py-16 px-4"
@@ -20,7 +22,7 @@ export default function BlogPreview({ posts }: { posts: Post[] }) {
       transition={{ duration: 0.8 }}
     >
       <h2 className="font-heading text-h2 mb-10 text-center text-deep-teal uppercase tracking-wider">
-        From the Journal
+        {t('blog.title')}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {posts.map((post, i) => (
@@ -59,7 +61,7 @@ export default function BlogPreview({ posts }: { posts: Post[] }) {
                     className="uppercase py-2 px-4 bg-vibrant-ochre text-deep-teal font-bold rounded-full shadow hover:scale-105 hover:shadow-xl transition focus:outline-none focus:ring-2 focus:ring-warm-brass"
                     tabIndex={0}
                   >
-                    Read on Substack
+                    {t('blog.readMore', 'Read on Substack')}
                   </button>
                 </span>
               </div>
@@ -74,7 +76,7 @@ export default function BlogPreview({ posts }: { posts: Post[] }) {
           rel="noopener"
           className="mt-12 py-4 px-6 border-2 border-warm-brass text-deep-teal font-semibold rounded-lg hover:bg-warm-brass hover:text-soft-cream transition focus:outline-none focus:ring-4 focus:ring-warm-brass"
         >
-          View All Articles on Substack
+          {t('blog.readMore', 'View All Articles on Substack')}
         </a>
       </div>
     </motion.section>

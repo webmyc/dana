@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'deep-teal': '#0F4F40',      // primary text & dark sections
+        'deep-teal': '#145D52',      // primary text & dark sections
         'warm-brass': '#A67C52',     // secondary buttons, icons
         'soft-cream': '#FAF8F4',     // hero text, light backgrounds
         'pastel-sage': '#E8F3EF',    // alt section bg

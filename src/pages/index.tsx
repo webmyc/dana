@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from '../components/Header';
-import Hero from '../components/Hero';
+import HeroSection from '../components/HeroSection';
 import BenefitGrid from '../components/BenefitGrid';
-import AboutTeaser from '../components/AboutTeaser';
-import ServicesList from '../components/ServicesList';
+import AboutSection from '../components/AboutSection';
+import ServicesGrid from '../components/ServicesGrid';
 import CommunitySpotlight from '../components/CommunitySpotlight';
 import TestimonialsCarousel from '../components/TestimonialsCarousel';
 import BlogPreview from '../components/BlogPreview';
@@ -51,10 +51,10 @@ export default function Home({ posts }: { posts: any[] }) {
       {/* Main grid container for all sections */}
       <main className="w-full max-w-[1200px] mx-auto grid grid-cols-1 gap-y-24 px-3 md:px-6">
         {/* Each section uses generous spacing and clear separation */}
-        <section id="hero"><Hero /></section>
+        <section id="hero"><HeroSection /></section>
         <section id="benefits"><BenefitGrid /></section>
-        <section id="about"><AboutTeaser /></section>
-        <section id="services"><ServicesList /></section>
+        <section id="about"><AboutSection /></section>
+        <section id="services"><ServicesGrid /></section>
         <section id="community"><CommunitySpotlight /></section>
         <section id="testimonials"><TestimonialsCarousel /></section>
         <section id="blog"><BlogPreview posts={posts} /></section>

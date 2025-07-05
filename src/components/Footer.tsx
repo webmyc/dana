@@ -1,7 +1,9 @@
 import React from 'react';
 import { Fern } from './icons/BotanicalIcons';
+import { useTranslation } from 'next-i18next';
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="relative bg-deep-teal text-soft-cream pt-16 pb-8 px-4 mt-16 overflow-hidden">
       {/* Brass botanical in BG */}
@@ -13,28 +15,28 @@ export default function Footer() {
         <div>
           <h2 className="font-heading text-lg uppercase tracking-wider mb-2">Dana Dragomirescu</h2>
           <p className="font-body text-base mb-4">
-            Authentic Connection: Relationship counseling, group facilitation, and nature-aligned rituals for deep belonging and growth.
+            {t('footer.about', 'Authentic Connection: Relationship counseling, group facilitation, and nature-aligned rituals for deep belonging and growth.')}
           </p>
         </div>
         {/* Quick links */}
         <div>
-          <h3 className="font-heading text-base uppercase tracking-wider mb-2">Quick Links</h3>
+          <h3 className="font-heading text-base uppercase tracking-wider mb-2">{t('footer.quickLinks', 'Quick Links')}</h3>
           <ul className="space-y-2">
-            <li><a href="#hero" className="hover:text-vibrant-ochre focus:text-vibrant-ochre transition focus:outline-none focus:ring-2 focus:ring-warm-brass">Home</a></li>
-            <li><a href="#about" className="hover:text-vibrant-ochre focus:text-vibrant-ochre transition focus:outline-none focus:ring-2 focus:ring-warm-brass">About</a></li>
-            <li><a href="#services" className="hover:text-vibrant-ochre focus:text-vibrant-ochre transition focus:outline-none focus:ring-2 focus:ring-warm-brass">Services</a></li>
-            <li><a href="#community" className="hover:text-vibrant-ochre focus:text-vibrant-ochre transition focus:outline-none focus:ring-2 focus:ring-warm-brass">Community</a></li>
-            <li><a href="#blog" className="hover:text-vibrant-ochre focus:text-vibrant-ochre transition focus:outline-none focus:ring-2 focus:ring-warm-brass">Blog</a></li>
-            <li><a href="#contact" className="hover:text-vibrant-ochre focus:text-vibrant-ochre transition focus:outline-none focus:ring-2 focus:ring-warm-brass">Contact</a></li>
+            <li><a href="#hero" className="hover:text-vibrant-ochre focus:text-vibrant-ochre transition focus:outline-none focus:ring-2 focus:ring-warm-brass">{t('nav.home')}</a></li>
+            <li><a href="#about" className="hover:text-vibrant-ochre focus:text-vibrant-ochre transition focus:outline-none focus:ring-2 focus:ring-warm-brass">{t('nav.about')}</a></li>
+            <li><a href="#services" className="hover:text-vibrant-ochre focus:text-vibrant-ochre transition focus:outline-none focus:ring-2 focus:ring-warm-brass">{t('nav.services')}</a></li>
+            <li><a href="#community" className="hover:text-vibrant-ochre focus:text-vibrant-ochre transition focus:outline-none focus:ring-2 focus:ring-warm-brass">{t('nav.community')}</a></li>
+            <li><a href="#blog" className="hover:text-vibrant-ochre focus:text-vibrant-ochre transition focus:outline-none focus:ring-2 focus:ring-warm-brass">{t('nav.blog')}</a></li>
+            <li><a href="#contact" className="hover:text-vibrant-ochre focus:text-vibrant-ochre transition focus:outline-none focus:ring-2 focus:ring-warm-brass">{t('nav.contact')}</a></li>
           </ul>
         </div>
         {/* Newsletter + Social */}
         <div>
-          <h3 className="font-heading text-base uppercase tracking-wider mb-2">Newsletter</h3>
+          <h3 className="font-heading text-base uppercase tracking-wider mb-2">{t('footer.newsletter.title')}</h3>
           <form className="flex flex-col sm:flex-row gap-2 mb-4">
             <input
               type="email"
-              placeholder="Your email"
+              placeholder={t('footer.newsletter.placeholder')}
               className="px-4 py-2 rounded-full bg-soft-cream text-deep-teal placeholder:text-deep-teal focus:outline-none focus:ring-2 focus:ring-warm-brass flex-1"
               aria-label="Email address"
             />
@@ -42,7 +44,7 @@ export default function Footer() {
               type="submit"
               className="bg-vibrant-ochre text-deep-teal font-bold rounded-full px-6 py-2 shadow hover:scale-105 hover:shadow-xl transition focus:outline-none focus:ring-2 focus:ring-warm-brass"
             >
-              Subscribe
+              {t('footer.newsletter.subscribe')}
             </button>
           </form>
           <div className="flex gap-4 mt-2">
@@ -57,7 +59,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="mt-12 text-center text-sm text-soft-cream/80 font-body relative z-10">
-        &copy; {new Date().getFullYear()} Dana Dragomirescu. All rights reserved.
+        {t('footer.copyright', `© ${new Date().getFullYear()} Dana Dragomirescu. All rights reserved.`)}
       </div>
     </footer>
   );
